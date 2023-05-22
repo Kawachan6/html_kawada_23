@@ -1,1 +1,84 @@
 /* ここから下に記載していく */
+body{
+.top {
+	height: 100px;
+	width: 1300px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.title{
+	width: 650px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.menu{
+	width: 650px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.about{
+	font-size: 20px;
+	padding-top: 35px;
+}
+.course{
+	font-size: 20px;
+	padding-top: 35px;
+}
+.news{
+	font-size: 20px;
+	padding-top: 35px;
+}
+.access{
+	font-size: 20px;
+	padding-top: 35px;
+}
+.contact{
+	font-size: 20px;
+	padding-top: 35px;
+}
+/* ここから写真 */
+.picture{
+	background-image: url(/img/mainbg.png);
+	width: 1300px;
+	margin: 0 auto;
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.picture h1{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	padding-top: 130px;
+	display: none;
+	text-shadow: 2px 2px 3px; 
+}
+.picture p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 60px;
+	padding-top: 30px;
+	text-shadow: 2px 2px 3px; 
+}
+/* ここからABOUTDAYO */
+.aboutdayo{
+	height: 400px;
+	width: 1300px;
+	margin:0 auto;
+}
+.aboutdayo h1{
+	font-size: 30px;
+	color: gold;
+	font-weight: 900;
+	text-align: center;
+	line-height: 60px;
+}
+
+}
+
+}
