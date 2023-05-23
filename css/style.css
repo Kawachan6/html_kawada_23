@@ -226,11 +226,67 @@ body{
 	padding-right: 150px;
 	line-height: 30px;
 } 
-/* ここから動画 */
+/* ここからnews */
+.newsdayo{
+	height: 100px;
+    width: 1300px;
+    margin:0 auto;
 }
+.newsdayo h1{
+	text-align: center;
+	color: gold;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 30px;
+	margin-top: 60px;
 }
+.newsdayo p{
+	text-align: center;
+    font-size: 15px;
+    line-height: 50px;
 }
-
+/* ここから写真３枚 */
+.pizza{
+	height: 300px;
+    width: 960px;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 20px;
 }
-
+.pizza1{
+	height: 300px;
+	width: 300px;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+.pizza1:hover{
+	color: green;
+}
+.pizza1 p{
+	text-align: center;
+}
+.pizza1 img:hover{
+	opacity:0.5 ;
+}
+/* ここからmore */
+.more{
+	margin-top: 30px;
+	background-color:gold;
+	width: 300px;
+	margin:0 auto;
+	height: 60px;
+	margin-bottom: 20px;
+	text-decoration：none;
+  }
+  .more:hover{
+	background-color:green
+  }
+  .more h2{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+	color: white
+  }
+  
 }
