@@ -39,7 +39,7 @@ body{
 	font-size: 20px;
 	padding-top: 35px;
 }
-/* ここから写真 */
+/* ここから写真上の記載 */
 .picture{
 	background-image: url(/img/mainbg.png);
 	width: 1300px;
@@ -65,7 +65,7 @@ body{
 	padding-top: 30px;
 	text-shadow: 2px 2px 3px; 
 }
-/* ここからABOUTDAYO */
+/* ここからABOUT */
 .aboutdayo{
 	height: 400px;
 	width: 1300px;
@@ -77,6 +77,158 @@ body{
 	font-weight: 900;
 	text-align: center;
 	line-height: 60px;
+}
+.aboutdayo h2{
+	text-align: center;
+	line-height: 30px;
+}
+.aboutdayo h3{
+	text-align: center;
+	line-height: 60px;
+}
+.aboutdayo p{
+	text-align: center;
+}
+.aboutdayo h4{
+	text-align: center;
+	line-height: 80px;
+}
+/* ここから写真４枚 */
+.photo4{
+	width: 1300px;
+	margin: 0 auto;
+	height: 255px;
+	display: flex;
+	justify-content: space-between;
+}
+/* ここからCOURSE */
+.coursedayo{
+	height: 200px;
+	width: 1300px;
+	margin: 0 auto;
+}
+.coursedayo h1{
+	font-size: 30px;
+	margin-top: 30px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 60px;
+	color: gold;
+}
+.coursedayo p{
+	text-align: center;
+	line-height: 30px;
+}
+/* ここからPR */
+.PR1{
+	width: 1300px;
+	margin: 0 auto;
+	height: 400px;
+	display: flex;
+	justify-content: flex-end;
+}
+.PR1_1{
+	width: 650px;
+	margin: 0 auto;
+	height: 400px;
+}
+.PR1_1 img{
+	width: 100%;
+	object-fit: cover;
+}
+.PR1_2{
+	background-color: lightgray;
+	width: 650px;
+	margin: 0 auto;
+	height: 400px;
+}
+.PR1_2 h1{
+	font-size: 20px;
+	text-align: left;
+	padding-top: 110px;
+	padding-left: 50px;
+}
+.PR1_2 p{
+	font-size: 13px;
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-right: 150px;
+	line-height: 30px;
+} 
+.PR2{
+	width: 1300px;
+	margin: 0 auto;
+	height: 400px;
+	display: flex;
+	justify-content: flex-end;
+}
+.PR2_1{
+	background-color: lightgray;
+	width: 650px;
+	margin: 0 auto;
+	height: 400px;
+}
+.PR2_1 h1{
+	font-size: 20px;
+	text-align: right;
+	padding-top: 110px;
+	padding-right: 240px;
+}
+.PR2_1 p{
+	font-size: 13px;
+	padding-top: 40px;
+	padding-right: 50px;
+	padding-left: 150px;
+	line-height: 30px;
+}
+.PR2_2{
+	width: 650px;
+	margin: 0 auto;
+	height: 400px;
+}
+.PR2_2 img{
+	width: 100%;
+	object-fit: cover;
+}
+.PR3{
+	width: 1300px;
+	margin: 0 auto;
+	height: 400px;
+	display: flex;
+	justify-content: flex-end;
+}
+.PR3_1{
+	width: 650px;
+	margin: 0 auto;
+	height: 400px;
+}
+.PR3_1 img{
+	width: 100%;
+	object-fit: cover;
+	height: 400px;
+}
+.PR3_2{
+	background-color: lightgray;
+	width: 650px;
+	margin: 0 auto;
+	height: 400px;
+}
+.PR3_2 h1{
+	font-size: 20px;
+	text-align: left;
+	padding-top: 110px;
+	padding-left: 50px;
+}
+.PR3_2 p{
+	font-size: 13px;
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-right: 150px;
+	line-height: 30px;
+} 
+/* ここから動画 */
+}
+}
 }
 
 }
